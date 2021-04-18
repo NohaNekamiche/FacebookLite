@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:background="@color/bleu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/facebook"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+
+            android:text="@string/number"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+
+            android:inputType="textEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/input"/>
+        <TextView
+            android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pwd"
+            android:textColor="@color/gray"/>
+
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+                android:layout_marginTop="140dp"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/input"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="220dp"
+            android:backgroundTint="@color/bleu2"
+            android:text="@string/con"
+            app:strokeColor="@color/bleu2" />
+
+        <TextView
+            android:layout_marginTop="300dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forget_pwd"
+            android:textColor="@color/gray"
+            android:textSize="18sp"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:backgroundTint="#4CAF50"
+            android:text="@string/create" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="580dp"
+
+            android:background="@color/bleu2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/aide"
+                android:textColor="@color/white"
+                android:textSize="23sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:text="@string/quite"
+                android:textColor="@color/white"
+                android:textSize="23sp">
+
+            </TextView>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

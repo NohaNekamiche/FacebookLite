@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Exo2</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="number">Numero de mobile ou e-mail</string>
+    <string name="pwd">Mot de passe</string>
+    <string name="con">Connexion</string>
+    <string name="forget_pwd">Mot de passe oublier?</string>
+    <string name="create">Créer un Compte</string>
+    <string name="quite">Quitter</string>
+    <string name="aide">Aide</string>
+</resources>

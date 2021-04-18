@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exo2</string>
+    <string name="facebook">فايسبوك</string>
+    <string name="number">رقم الهاتف المحمول أو البريد الالكتروني</string>
+    <string name="pwd">كلمة السر</string>
+    <string name="con">تسجيل الدخول</string>
+    <string name="forget_pwd">هل نسيت كلمة السر؟</string>
+    <string name="create">انشاء حساب جديد</string>
+    <string name="quite">خروج</string>
+    <string name="aide">مساعدة</string>
+</resources>
