@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
                         Toast.makeText(this, "la connexion est etablir", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, HomePage::class.java)
                         startActivity(intent)
+                        finish()
                     }else{
                         alertDialog("verifier que vous avez entrer votre email ou mot de passes  correctement")
                     }
