@@ -9,8 +9,8 @@
     <string name="create">انشاء حساب جديد</string>
     <string name="quite">خروج</string>
     <string name="aide">مساعدة</string>
-    <string name="title">Error</string>
+    <string name="title">خطأ</string>
     <string name="msg">Verifier votre email</string>
-    <string name="deconncter">Deconnecter</string>
+    <string name="deconncter">خروج</string>
     <string name="home">Page daccieul</string>
 </resources>
